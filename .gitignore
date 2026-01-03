@@ -1,0 +1,49 @@
+# Node Modules & builds
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Project specific
+test-data/
+*.pem
+*.pub
+
+# Keys and Secrets
+keys.txt
+Gurucool-AI-Firebase.json
+gurukul-ai-bdf19-firebase-adminsdk-fbsvc-10fbb45e2e.json
+gurucool-ai-key.pem
+github-ec2-deploy
+github-ec2-deploy.pub
+gurucool-ai-key.pub
+
+# Misc
+.claude/
+CLAUDE.md
+playground.md
+*.tar.gz
